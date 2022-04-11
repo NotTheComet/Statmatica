@@ -1,0 +1,9 @@
+{
+    "servercred": {
+        "ip": "https://Statmatica.kirvilnet.com",
+        "port": ""
+    },
+    
+    "ClientKey": "", 
+    "ClientName": "Generic Client"
+}

@@ -1,6 +1,6 @@
 import os from "os";
 
-function bytestoint(bytes): number {
+function bytestoint(bytes: number) {
     var resultmb;
     var resultgb;
     
@@ -30,5 +30,11 @@ class Metrics {
         return this.OStype;
     }
 
-    
+    public getOScpus(): object {
+        return this.OScpus;
+    }
+
+    public getOSuptime(): number {
+        return this.OSuptime;
+    }
 }
